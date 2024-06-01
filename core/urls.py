@@ -24,6 +24,7 @@ urlpatterns = [
     path('aip/v1/logo/', include('apps.logo.urls')),
     path('aip/v1/news/', include('apps.news.urls')),
     path('aip/v1/team/', include('apps.team.urls')),
+    path('aip/v1/task/', include('apps.task.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

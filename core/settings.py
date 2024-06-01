@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'apps.logo',
     'apps.news',
     'apps.team',
+    'apps.task',
 
     #rest_framework
     'rest_framework',
